@@ -9,7 +9,7 @@ public class Mago extends Criatura implements Magico{
     
     @Override
     public void atacar (Criatura objetivo){
-        objetivo.defender(fuerza);
+        objetivo.defender(fuerza);   
         }
     @Override
     public void defender (int daño){
