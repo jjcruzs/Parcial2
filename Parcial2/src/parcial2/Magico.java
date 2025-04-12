@@ -1,7 +1,7 @@
 package parcial2;
 public interface Magico {
-    public void lanzarEchiso();
-    public void aprenderHechiso(String hechiso);
+    public void lanzarHechizo();
+    public void aprenderHechizo(String hechizo);
 
     
 }

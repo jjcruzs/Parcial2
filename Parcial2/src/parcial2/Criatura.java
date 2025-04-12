@@ -1,9 +1,9 @@
 package parcial2;
 public abstract class Criatura {
     
-    private String nombre;
-    private int salud;
-    private int fuerza;
+    String nombre;
+    int salud;
+    int fuerza;
 
     public Criatura(String nombre, int salud, int fuerza) {
         this.nombre = nombre;
