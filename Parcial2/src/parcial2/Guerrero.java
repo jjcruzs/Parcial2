@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package parcial2;
+public class Guerrero extends Criatura{
+   
+    public Guerrero(String nombre, int salud, int fuerza) {
+        super(nombre, salud, fuerza);
+    }
 
-/**
- *
- * @author Jhon Bellaizac
- */
-public class Guerrero {
+    @Override
+    public void atacar(Criatura objetivo) {
+        objetivo.defender(fuerza);
+    }
+
+    @Override
+    public void defender(int daño) {
+        salud -= daño;
+    }
+
+    void equiparArma(Arma espada) {
+        
+    }
+
     
 }
+
+    
+

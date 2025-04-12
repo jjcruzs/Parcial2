@@ -22,7 +22,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        Dragon dragon = new Dragon("Dragon", 150, 30, "rojas");
+        Dragon dragon = new Dragon("Dragon", 150, 30);
         Guerrero guerrero = new Guerrero("Guerrero", 120, 25);
         Mago mago = new Mago("Mago", 100, 20);
 

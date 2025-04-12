@@ -1,8 +1,10 @@
 package parcial2;
-public class Dragon extends Criatura implements Volador{
-   private String escamas;
+
+public class Dragon extends Criatura implements Volador {
+
     public Dragon(String nombre, int salud, int fuerza) {
         super(nombre, salud, fuerza);
+        
     }
 
     @Override
@@ -24,4 +26,9 @@ public class Dragon extends Criatura implements Volador{
     public void aterrizar() {
         System.out.println(nombre + " aterrizó.");
     }
+
+    void equiparArma(Arma garras) {
+       
+    }
+
 }

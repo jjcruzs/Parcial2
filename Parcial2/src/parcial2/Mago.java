@@ -45,4 +45,11 @@ public class Mago extends Criatura implements Magico {
     public void lanzarHechizo(Criatura objetivo) {
 
     }
+
+    void equiparArma(Arma baston) {
+       
+
+    private Object getArma() {
+        
+    }
 }
