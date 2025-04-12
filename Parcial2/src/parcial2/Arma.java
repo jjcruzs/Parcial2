@@ -8,7 +8,7 @@ public class Arma {
 
     public Arma(String nombre, int dañoAdicional) {
         this.nombre = nombre;
-        this.dañoAdicional = dañoAdicional;
+        this.dañoAdicional = dañoAdicional;   
     }
     
     public int atacarConArma() {
